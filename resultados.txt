@@ -1,0 +1,64 @@
+BABA
+AAAC
+AACC
+AABA
+AACC
+AABC
+
+
+Número de secuencias: 6
+numero de columnas: 4
+Pares totales: 60.0
+Letras encontradas: 
+B = 4
+A = 14
+C = 6
+
+Matriz transpuesta
+B A A A A A
+A A A A A A
+B A C B C B
+A C C A C C
+
+Número de letras por columna de
+la matriz original
+en orden de la matriz transpuesta
+
+De aquí en adelante todo se cuenta hacia los lados
+B A C
+1 5 0
+0 6 0
+3 1 2
+0 2 4
+
+Aquí empieza lo bueno
+Letras observadas| proporción
+	B = 4		|	0.167
+	A = 14		|	0.583
+	C = 6		|	0.25
+
+combinacioens	|
+posibles sin	|	Proporción	|	Proporción
+repeticion		|	Observada	|	Esperadan
+B-B = 3			|	0.05		|	0.028
+B-A = 8			|	0.133		|	0.194
+B-C = 6			|	0.1		|	0.083
+A-A = 26			|	0.433		|	0.34
+A-C = 10			|	0.167		|	0.292
+C-C = 7			|	0.117		|	0.062
+
+2log2(proporción observada / porporción esperada)
+o mismo pero redondeado
+B-B = 1.6959938131099004		|	2
+B-A = -1.0886410324476206		|	-1
+B-C = 0.5260688116675881		|	1
+A-A = 0.6975285597193549		|	1
+A-C = -1.6147098441152083		|	-2
+C-C = 1.8009286528981712		|	2
+
+
+matriz blossum
+- B A C
+B 2 -1 1
+A -1 1 -2
+C 1 -2 2
